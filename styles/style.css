@@ -182,14 +182,6 @@ body {
   margin: 0 40px 50px;
 }
 
-.lots__block-image {
-  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-  z-index: -1;
-  background: lightgray 50%;
-  width: 430px;
-  height: 450px;
-}
-
 .lots-footer {
   padding-left: 40px;
   font-size: 20px;
