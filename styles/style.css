@@ -71,14 +71,12 @@ body {
 
 .cover-title {
   padding: 165px 50px 135px;
-}
-
-.cover-title-text {
   font-weight: bold;
   font-size: 100px;
   letter-spacing: 0.3em;
   line-height: 120%;
 }
+
 
 .text-left {
   text-align: left;
