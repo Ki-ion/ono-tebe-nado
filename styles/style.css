@@ -117,7 +117,7 @@
   padding: 12px 32px;
   border: 1px solid white;
   background: transparent;
-  color:#fff;
+  color: #fff;
   text-align: center;
   font-size: 22px;
   text-transform: uppercase;
@@ -189,7 +189,6 @@
 
 .no_underline {
   text-decoration: none;
-
 }
 
 .lots-footer {
