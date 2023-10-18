@@ -13,7 +13,7 @@
     <header class="header">
       <nav>
         <ul class="menu__list">
-          <li class="menu__list-item menu__list-item-active"><a>главная</a></li>
+          <li class="menu__list-item menu__list-item-active"><a class="menu__link-active" href="#0">главная</a></li>
           <li class="menu__list-item"><a href="#lots">посмотреть лоты</a></li>
           <li class="menu__list-item"><a href="#about">об аукционе</a></li>
         </ul>
@@ -36,21 +36,27 @@
     </header>
     <main>
       <section class="cover">
+        <div class="overlay"></div>
         <h1 class="cover-title">
-          <span class="text-left">
-            <span>о</span><span class="spacing_06em">но</span>
-          </span>
-          <span class="text-center">
-            <span>те</span><span class="spacing_06em">бе</span>
-          </span>
-          <span class="text-right">
-            <span class="spacing_06em">н</span><span>ад</span
-            ><span class="spacing_0em">о</span>
-          </span>
+          <div class="text-left">
+            <span>о</span><span class="spacing">но</span>
+          </div>
+          <div class="text-center">
+            <span>те</span><span class="spacing">бе</span>
+          </div>
+          <div class="text-right">
+            <span class="spacing">н</span><span>ад</span><span class="no-spacing">о</span>
+          </div>
         </h1>
         <div class="cover-footer">
-          <p class="cover-subline text-center">
-            Аукцион вещей, в которые никто не верил
+          <p class="cover-subline">
+            <span>Аукцион</span>
+            <span>вещей,</span>
+            <span>в</span>
+            <span>которые</span>
+            <span>никто</span>
+            <span>не</span>
+            <span>верил</span>
           </p>
           <button type="button" class="button">Сделать ставку</button>
         </div>
@@ -59,8 +65,10 @@
         <h2 class="lots-title">Лоты</h2>
         <ul class="lots-body">
           <li class="list-element">
-            <a href="#0">
-              <article class="lots__block-film_background lots__block">
+            <img src="./images/card-lot-01.jpg" class="lots-image"/>
+            <div class="overlay"></div>
+            <a href="#0" class="no_underline">
+              <article class="lots__block">
                 <h3 class="lots__block-title">
                   Фильм режиссёра, который бросил киношколу
                 </h3>
@@ -70,11 +78,13 @@
                   Андерсон?
                 </p>
               </article>
-            </a>
+            </a>    
           </li>
           <li class="list-element">
-            <a href="#0">
-              <article class="lots__block-book_background lots__block">
+            <img src="./images/card-lot-02.jpg" class="lots-image"/>
+            <div class="overlay"></div>
+            <a href="#0" class="no_underline">
+              <article class="lots__block">
                 <h3 class="lots__block-title">
                   Книга, где описан один скучный день из жизни рекламного агента
                 </h3>
@@ -90,7 +100,9 @@
             </a>
           </li>
           <li class="list-element">
-            <a href="#0">
+            <img src="./images/card-lot-03.jpg" class="lots-image"/>
+            <div class="overlay"></div>
+            <a href="#0" class="no_underline">
               <article class="lots__block-picture_background lots__block">
                 <h3 class="lots__block-title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
@@ -153,7 +165,7 @@
           <li
             class="menu__list-item menu__list-item-active footer__menu__list-item"
           >
-            <a>главная</a>
+            <a class="menu__link-active" href="#0">главная</a>
           </li>
           <li class="menu__list-item footer__menu__list-item">
             <a href="#lots">посмотреть лоты</a>
