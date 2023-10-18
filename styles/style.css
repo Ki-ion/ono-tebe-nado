@@ -145,10 +145,6 @@
   flex-wrap: wrap;
 }
 
-.list-element {
-  position: relative;
-}
-
 .lots__block {
   width: 430px;
   min-height: 450px;
@@ -271,6 +267,7 @@
 }
 
 .list-element {
+  position: relative;
   margin: 0;
   padding: 0;
   list-style-type: none;
