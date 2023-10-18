@@ -13,7 +13,7 @@
     <header class="header">
       <nav>
         <ul class="menu__list">
-          <li class="menu__list-item menu__list-item-active">главная</li>
+          <li class="menu__list-item menu__list-item-active"><a>главная</a></li>
           <li class="menu__list-item"><a href="#lots">посмотреть лоты</a></li>
           <li class="menu__list-item"><a href="#about">об аукционе</a></li>
         </ul>
@@ -24,71 +24,85 @@
           class="header-logo"
           alt="Логотип 'Оно тебе надо'"
       /></a>
-      <div class="contacts">
+      <address class="contacts">
         <a class="contacts__item" href="tel:+99995555555">+9 999 555 5555</a>
         <a class="contacts__item" href="mailto:info@sobaka.ge"
-          >info@sobaka.ge</a>
-        <address class="contacts__item no-underline">
+          >info@sobaka.ge</a
+        >
+        <p class="contacts__item no-underline">
           наб. Принсенграхт 263-265, Амстердам
-        </address>
-      </div>
+        </p>
+      </address>
     </header>
     <main>
       <section class="cover">
-        <div class="cover-title">
-          <p class="cover-title-text text-left">оно</p>
-          <p class="cover-title-text text-center">тебе</p>
-          <p class="cover-title-text text-right">надо</p>
-        </div>
+        <h1 class="cover-title">
+          <p class="cover-title-text text-left">
+            <span>о</span><span class="spacing_06em">но</span>
+          </p>
+          <p class="cover-title-text text-center">
+            <span>те</span><span class="spacing_06em">бе</span>
+          </p>
+          <p class="cover-title-text text-right">
+            <span class="spacing_06em">н</span><span>ад</span
+            ><span class="spacing_0em">о</span>
+          </p>
+        </h1>
         <div class="cover-footer">
           <p class="cover-subline text-center">
             Аукцион вещей, в которые никто не верил
           </p>
-          <button class="button">Сделать ставку</button>
+          <button type="button" class="button">Сделать ставку</button>
         </div>
       </section>
       <section class="lots" id="lots">
-        <h3 class="lots-title">Лоты</h3>
+        <h2 class="lots-title">Лоты</h2>
         <ul class="lots-body">
-          <li>
-            <article class="lots__block-first lots__block">
-              <a class="lots__block-title" href="#0">
-                Фильм режиссёра, который бросил киношколу
-              </a>
-              <p class="lots__block-text">
-                Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
-                ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
-              </p>
-            </article>
+          <li class="list-element">
+            <a href="#0">
+              <article class="lots__block-film_background lots__block">
+                <h3 class="lots__block-title" href="#0">
+                  Фильм режиссёра, который бросил киношколу
+                </h3>
+                <p class="lots__block-text">
+                  Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                  ставка, если бы вы не знали, что режиссёр — Пол Томас
+                  Андерсон?
+                </p>
+              </article>
+            </a>
           </li>
-          <li>
-            <article class="lots__block-second lots__block">
-              <a class="lots__block-title" href="#0">
-                Книга, где описан один скучный день из жизни рекламного агента
-              </a>
-              <p class="lots__block-text">
-                Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
-                переходами на древнеанглийский. В ней одновременно
-                рассказывается о 16 июня 1904 года и об истории литературы,
-                начиная с античных времён. И это всё накладывается на эпическую
-                поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса
-                Джойса?
-              </p>
-            </article>
+          <li class="list-element">
+            <a href="#0">
+              <article class="lots__block-book_background lots__block">
+                <h3 class="lots__block-title" href="#0">
+                  Книга, где описан один скучный день из жизни рекламного агента
+                </h3>
+                <p class="lots__block-text">
+                  Объёмом почти в тысячу страниц. Иногда без знаков препинания и
+                  с переходами на древнеанглийский. В ней одновременно
+                  рассказывается о 16 июня 1904 года и об истории литературы,
+                  начиная с античных времён. И это всё накладывается на
+                  эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
+                  Джеймса Джойса?
+                </p>
+              </article>
+            </a>
           </li>
-          <li>
-            <article class="lots__block-third lots__block">
-              <a class="lots__block-title" href="#0">
-                Картина, которую повторит даже 5-летний сын маминой подруги
-              </a>
-
-              <p class="lots__block-text">
-                Ну действительно, там линия, тут кружочек, а здесь и вовсе
-                что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
-                котиков… Сколько бы вы на такое поставили, если бы не знали, что
-                это — одна из революционных работ Кандинского?
-              </p>
-            </article>
+          <li class="list-element">
+            <a href="#0">
+              <article class="lots__block-picture_background lots__block">
+                <h3 class="lots__block-title" href="#0">
+                  Картина, которую повторит даже 5-летний сын маминой подруги
+                </h3>
+                <p class="lots__block-text">
+                  Ну действительно, там линия, тут кружочек, а здесь и вовсе
+                  что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
+                  котиков… Сколько бы вы на такое поставили, если бы не знали,
+                  что это — одна из революционных работ Кандинского?
+                </p>
+              </article>
+            </a>
           </li>
         </ul>
         <a class="lots-footer" href="#0">посмотреть больше</a>
@@ -102,7 +116,7 @@
           />
         </div>
         <div class="about__column">
-          <h3 class="about__column-title">Об аукционе</h3>
+          <h2 class="about__column-title">Об аукционе</h2>
           <div class="about__column-text">
             <p>
               Здесь вы не встретите очередное пафосное собрание невероятно
@@ -125,15 +139,15 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="contacts footer__contacts">
+      <address class="contacts footer__contacts">
         <a class="contacts__item" href="tel:+99995555555">+9 999 555 5555</a>
         <a class="contacts__item" href="mailto:info@sobaka.ge"
           >info@sobaka.ge</a
         >
-        <address class="contacts__item no-underline">
+        <p class="contacts__item no-underline">
           наб. Принсенграхт 263-265, Амстердам
-        </address>
-      </div>
+        </p>
+      </address>
       <nav class="menu__list">
         <ul class="footer__menu__list">
           <li
@@ -149,23 +163,30 @@
           </li>
         </ul>
       </nav>
-      <div class="socials">
-        <a href="#0"
-          ><img src="images/yt.svg" class="socials-image" alt="Логоти YouTube"
-        /></a>
-        <a href="#0"
-          ><img
-            src="images/vk.svg"
-            class="socials-image"
-            alt="Логотип Вконтакте"
-        /></a>
-        <a href="#0"
-          ><img
-            src="images/pinterest.svg"
-            class="socials-image"
-            alt="Логотип Pinterest"
-        /></a>
-      </div>
+      <ul class="socials">
+        <il class="socials_list-element">
+          <a href="#0"
+            ><img
+              src="images/yt.svg"
+              class="socials-image"
+              alt="Логоти YouTube"
+          /></a>
+        </il>
+        <il>
+          <a href="#0"
+            ><img
+              src="images/vk.svg"
+              class="socials-image"
+              alt="Логотип Вконтакте" /></a
+        ></il>
+        <il>
+          <a href="#0"
+            ><img
+              src="images/pinterest.svg"
+              class="socials-image"
+              alt="Логотип Pinterest" /></a
+        ></il>
+      </ul>
     </footer>
   </body>
 </html>
